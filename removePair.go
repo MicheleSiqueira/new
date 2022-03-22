@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func removePair(word string) string {
 	for i := 0; i < len(word)-1; i++ {
 		if word[i] == word[i+1] {
@@ -18,9 +16,9 @@ func removePair(word string) string {
 	return word
 }
 
-func main() {
-	var word string
-	fmt.Scan(&word)
-
-	fmt.Println(removePair(word))
-}
+//func main() {
+//	var word string
+//	fmt.Scan(&word)
+//
+//	fmt.Println(removePair(word))
+//}
